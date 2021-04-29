@@ -1,3 +1,3 @@
 from selenium import webdriver
-from BeautifulSoup import BeautifulSoup
+import beautifulsoup4 
 import pandas as pd
