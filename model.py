@@ -8,7 +8,7 @@ import datetime
 #url for the weather data 
 url="https://weather.com/en-IN/weather/tenday/l/Khammam+Telangana?canonicalCityId=d9c48593696ea68859c748a8acf914dc031c166665e258c1d8afa0a685b8ee65"
 #use of webdriver to activate communicate with the site
-driver = webdriver.Chrome('c:/chromedriver')# change the location of the driver with repective the system used 
+driver = webdriver.Chrome('c:/chromedriver')# change the location of the driver with repect to your system 
 driver.get(url)
 
 #variables for the data
